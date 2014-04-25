@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Utilitys
+namespace Utilitys.Model
 {
-    public class Class1
+   internal static class InternationalModel
     {
+        public static string cookieName { set; get; }
     }
 }
